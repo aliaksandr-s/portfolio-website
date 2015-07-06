@@ -1,0 +1,15 @@
+# Site settings
+title: Portfolio
+email: artist@email
+description: Full stack web developer
+
+
+# Build settings
+markdown: kramdown
+permalink: pretty
+
+port: 9000
+
+sass:
+  sass_dir: assets/css
+  style: :compressed
