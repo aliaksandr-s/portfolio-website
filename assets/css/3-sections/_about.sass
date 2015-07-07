@@ -1,21 +1,53 @@
+
 h3
 	@extend %big-bold
-	color: $hover-color
+	color: #FFB666
 	text-align: center
-
+	padding: 40px 0 20px
 
 .face-lockup
 	max-width: 780px
 	+display(flex)
-	justify-content: space-around
+	margin: 0 auto
+	+align-items(center)
+	+justify-content(space-around)
 
-	.icon1
-		width: 150px
-	.icon2
-		width: 150px
-	.icon3
-		width: 150px
-	.icon4
-		width: 150px
+	.face-img
+		+size(200px)
+		background: url(/assets/img/face.JPG)
+		order: 3
+
+	[class^="icon"]
+		+size(100px)
+		&.icon1
+			order: 1
+		&.icon2
+			order: 2
+		&.icon3
+			order: 4
+		&.icon4
+			order: 5
 
 
+@media screen and (max-width: 650px)
+	.face-lockup
+		display: block
+		text-align: center
+
+		div
+			display: inline-block
+
+		.face-img
+			display: block
+			background-position: center center
+			background-repeat: no-repeat
+			width: auto
+			margin-bottom: 30px
+
+.blurb
+	max-width: 620px
+	padding: 0 15px
+	margin: 50px auto
+	font-size: 24px
+	text-align: center
+	font-weight: 300s
