@@ -1,93 +1,40 @@
 <section>
-	<h3>About Myself</h3>
+	<h3 id="about-me">About Myself</h3>
 	<div class="face-lockup">
 
 		<div class="face-img"></div>
-
 
 		<div class="icon1">{% include icons/developer.html %}</div>
 		<div class="icon2">{% include icons/globe-gear.html %}</div>
 		<div class="icon3">{% include icons/html-coding.html %}</div>
 		<div class="icon4">{% include icons/web-content.html %}</div>
 
-
 	</div>
 
 	<div class="blurb">
-		<p><strong>Lorem ipsum dolor sit amet, possit officiis nec ex s et feugiat ceteros senserit. 
-		</strong>oCu quo iusto complectitur. Quo brute nostro inermis te, harum posidonium reprimique pro at.
-
-		Diceret philosophia te nam, suas assum sensibus mei ex. Wisi maiorum argumentum duo in, meis mutat vim id. At nam debitis officiis, ne vix summo commodo assentior, in eos dicant menandri. Pri ei enim altera, ex movet menandri expetendis pro. Meis utinam ea usu, clita imperdiet adversarium at eos, stet oratio denique mel ei.</p>
+		<p><strong>Like many people, I want to enjoy my work.</strong>
+		I want to feel like I'm having a <span class="color-text">positive impact</span> on the lives of the customers and make their lives <span class="color-text">easier</span>, <span class="color-text">better</span> and <span class="color-text">happier</span>. I'm interested in roles where I'm allowed — nay, encouraged — to keep my <span class="color-text">hands</span> and <span class="color-text">eyes</span> on a product every step of the way. Where I can <span class="color-text">manage</span> and <span class="color-text">build</span> a project without having to spend all day in meetings and provide <strong>the best possible experience for the customers.</strong></p>
 	</div>
 
+  {% if site.data.settings.skills %}
+  
+  <div class="skill-lockup">
 
-	<div class="skill-lockup">
+    {% for skill in site.data.settings.skills %}
 
-		<div class="skill-unit">
-			<div class="skill-label">Communication</div>
-			<div class="skill-icons skill-8">
-				<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>						
-		</div>
+      <div class="skill-unit">
+        <div class="skill-label">{{ skill.name }}</div>
+        <div class="skill-icons skill-{{ skill.value }}">
+          {% for i in (1..10) %}
+            <span></span>
+          {% endfor %}
+        </div>
+      </div>    
 
-		<div class="skill-unit">
-			<div class="skill-label">HTML/CSS</div>
-			<div class="skill-icons skill-7">
-				<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>						
-		</div>
-
-		<div class="skill-unit">
-			<div class="skill-label">Organization</div>
-			<div class="skill-icons skill-7">
-				<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>						
-		</div>
-
-		<div class="skill-unit">
-			<div class="skill-label">Python/Django</div>
-			<div class="skill-icons skill-7">
-				<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>						
-		</div>
-
-
-		<div class="skill-unit">
-			<div class="skill-label">Planning</div>
-			<div class="skill-icons skill-8">
-				<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>						
-		</div>
-
-
-		
-
-
-		<div class="skill-unit">
-			<div class="skill-label">JavaScript/jQuery</div>
-			<div class="skill-icons skill-5">
-				<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>						
-		</div>
-
-
-		<div class="skill-unit">
-			<div class="skill-label">Learning</div>
-			<div class="skill-icons skill-9">
-				<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>						
-		</div>
-
-
-		<div class="skill-unit">
-			<div class="skill-label">Ruby/PHP</div>
-			<div class="skill-icons skill-5">
-				<span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span>
-			</div>					
-		</div>
-
-
-
-	</div>
+    {% endfor %}
+    
+  </div>
+  
+  {% endif %}
 
 </section>

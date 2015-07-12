@@ -1,8 +1,6 @@
 # Site settings
 title: Portfolio
 email: artist@email
-description: Full stack web developer
-
 
 # Build settings
 markdown: kramdown

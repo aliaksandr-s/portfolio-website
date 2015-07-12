@@ -1,0 +1,50 @@
+#-------------------------------
+# General Site Settings
+
+title: Artists Theme
+email: devtipsfordesigners@gmail.com
+
+# NOTE: The Logo and Background image are defined in the all.sass document.
+
+menu:
+- {name: About Me, url: '#about-me'}
+- {name: Work, url: '#work'}
+- {name: Clients, url: '#clients'}
+- {name: Contact, url: '#contact'}
+
+#-------------------------------
+# SEO Section
+
+# NOTE: Providing SEO information will make this website more searchable on the internet.
+
+seo:
+  description: 'Provide a description for your website to make it visible to search engines.'
+  rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+  rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+
+#-------------------------------
+# Google Analytics Section
+
+# Analytics helps you understand who visits your website.
+# Learn more at: http://support.google.com/analytics/answer/1008065
+
+# NOTE: If you want to use Google Analytics for basic web tracking: Just uncomment and enter your UA-Code here.
+
+#google-analytics-ua: UA-XXXXXX-X
+
+#-------------------------------
+# About Section
+
+# NOTE: The avatar is defined in the all.sass document.
+
+skills:
+- {name: Communication, value: '8'}
+- {name: HTML/CSS, value: '7'}
+- {name: Organization, value: '9'}
+- {name: Python/Django, value: '7'}
+- {name: Planning, value: '7'}
+- {name: JavaScript/jQuery, value: '5'}
+- {name: Learning, value: '9'}
+- {name: Ruby/PHP, value: '4'}
+
+#-------------------------------

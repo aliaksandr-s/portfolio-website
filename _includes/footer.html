@@ -1,14 +1,13 @@
-<footer>
+<footer id="footer">
 
   <div class="lockup">
   <div class="overlay">  
     
     <div class="content-wrap">
       <nav>
-        <a href="">About Me</a>
-        <a href="">Skills</a>
-        <a href="">Work</a>
-        <a href="">Contact</a>
+        {% for item in site.data.settings.menu %}
+          <a href="{{ item.url }}">{{ item.name }}</a>
+        {% endfor %}
       </nav>
       
       <p class="copyright">All content copyright 2015</p>

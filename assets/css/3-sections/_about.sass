@@ -1,10 +1,11 @@
 section
 
-
+	.color-text
+		color: $orange-light
 
 	h3
 		@extend %big-bold
-		color: #FFB666
+		color: $orange-light
 		text-align: center
 		padding: 40px 0 20px
 
@@ -13,7 +14,7 @@ section
 		+display(flex)
 		margin: 0 auto
 		+align-items(center)
-		+justify-content(space-around)
+		+justify-content(space-between)
 
 		.face-img
 			+size(200px)
@@ -53,10 +54,9 @@ section
 		max-width: 620px
 		padding: 0 20px
 		margin: 50px auto
-		font-size: 24px
+		font-size: 22px
 		text-align: center
-		font-weight: 400
-
+		font-weight: 350
 
 	.skill-lockup
 		max-width: 540px
@@ -75,7 +75,7 @@ section
 			span
 				display: inline-block
 				+size(14px)
-				background-color: $accent
+				background-color: $orange
 				margin-right: 8px
 				border-radius: 50%
 
