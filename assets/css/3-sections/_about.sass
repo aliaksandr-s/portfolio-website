@@ -1,11 +1,11 @@
 section
 
 	.color-text
-		color: $orange-light
+		color: $orange
 
 	h3
 		@extend %big-bold
-		color: $orange-light
+		color: $orange
 		text-align: center
 		padding: 40px 0 20px
 
@@ -20,6 +20,7 @@ section
 			+size(200px)
 			background: url(/assets/img/face.JPG)
 			order: 3
+			border-radius: 50%
 
 		[class^="icon"]
 			+size(100px)
@@ -43,10 +44,12 @@ section
 
 			.face-img
 				display: block
+				text-align: center
 				background-position: center center
 				background-repeat: no-repeat
-				width: auto
-				margin-bottom: 30px
+				width: 200
+				margin: 0 auto 30px auto
+				
 			
 			[class^="icon"]
 				margin: 10px
