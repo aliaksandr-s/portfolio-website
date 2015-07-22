@@ -39,12 +39,12 @@ seo:
 
 skills:
 - {name: Communication, value: '8'}
-- {name: HTML/CSS, value: '7'}
+- {name: HTML/CSS, value: '8'}
 - {name: Organization, value: '9'}
 - {name: Python/Django, value: '7'}
 - {name: Planning, value: '7'}
 - {name: JavaScript/jQuery, value: '5'}
-- {name: Learning, value: '9'}
+- {name: Learning, value: '10'}
 - {name: Ruby/PHP, value: '4'}
 
 # Work Section

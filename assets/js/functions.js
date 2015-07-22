@@ -1,11 +1,11 @@
 $(function() {
-	smoothScrool(330);
+	smoothScroll(330);
 	workBelt();
 	workLoad();
 });
 
 // smoothScroll function is applied from the document ready function
-function smoothScrool (duration) {
+function smoothScroll (duration) {
 	$('a[href^="#"]').on('click', function(event) {
 
 	    var target = $( $(this).attr('href') );
