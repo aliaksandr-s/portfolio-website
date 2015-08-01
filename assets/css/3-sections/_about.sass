@@ -82,7 +82,7 @@ section
 			span
 				display: inline-block
 				+size(14px)
-				background-color: $crimson
+				background-color: $orange-dark
 				margin-right: 8px
 				border-radius: 50%
 
@@ -105,4 +105,6 @@ section
 		.skill-unit
 			width: 220px 
   
-
+@media (max-width: 510px)
+	section .face-lockup [class^="icon"]
+		display: none

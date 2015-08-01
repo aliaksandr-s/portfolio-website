@@ -8,16 +8,18 @@ footer
 
   .overlay
     //background-color: rgba(44, 62, 80, 0.5)
-    background-color: rgba(300, 162, 80, 0.12)
+    background-color: rgba(82, 70, 70, 0.95)
     background-image: url("../img/pattern.png")
     background-repeat: repeat
     padding: 40px
     +clearfix
 
     .content-wrap
-      float: left 
-      margin-left: 30px
-      margin-top: 20px
+      margin-top: 15px
+      text-align: center
+      
+      nav
+        margin-bottom: 5px
       
       .copyright
         margin: 0
@@ -33,3 +35,11 @@ footer
         
         &:hover
           color: $orange-light
+
+@media (max-width: 460px)
+  footer .overlay
+    padding-right: 0px
+    padding-left: 0px
+
+  footer .overlay .content-wrap a
+    margin-right: 15px

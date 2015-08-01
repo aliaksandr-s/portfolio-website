@@ -1,0 +1,54 @@
+.section-contact
+	text-align: center
+	padding-bottom: 90px
+
+.social-links
+	max-width: 700px
+	margin: 0px auto 50px
+	+display(flex)
+	+justify-content(space-around)
+	+flex-wrap(wrap)
+
+	a
+		margin: 20px
+		display: block
+		background: $orange-dark
+		+size(45px)
+		line-height: 50px
+		color: white
+		border-radius: 50%
+		font-size: 28px
+		+transition()
+
+		&:hover
+			+transform(scale(1.2))
+
+.bar
+	width: 250px
+	height: 0px
+	border-top: 2px solid $orange-dark
+	margin: 0px auto 50px
+
+.biglink
+	color: $orange-dark
+	display: inline-block
+	+transition()
+
+	font:
+		size: 66px
+		weight: 300
+
+	&:hover
+		color: $orange
+		+transform(scale(1.1))
+		
+
+@media (max-width: 750px)
+	
+	.biglink
+		font-size: 45px
+
+@media (max-width: 540px)
+
+	.biglink
+		font-size: 30px
