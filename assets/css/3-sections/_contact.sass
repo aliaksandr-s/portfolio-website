@@ -10,18 +10,20 @@
 	+flex-wrap(wrap)
 
 	a
+		border-bottom: 2px solid $orange-dark
+		//border-radius: 40%
 		margin: 20px
-		display: block
-		background: $orange-dark
-		+size(45px)
-		line-height: 50px
-		color: white
-		border-radius: 50%
-		font-size: 28px
 		+transition()
 
 		&:hover
 			+transform(scale(1.2))
+		svg
+			margin: 5px 5px 5px 5px
+			width: 40px
+			height: 40px
+
+			path
+				fill: $orange-dark
 
 .bar
 	width: 250px
@@ -43,12 +45,22 @@
 		+transform(scale(1.1))
 		
 
-@media (max-width: 750px)
+@media (max-width: 760px)
 	
 	.biglink
-		font-size: 45px
+		font-size: 50px
 
-@media (max-width: 540px)
+@media (max-width: 600px)
+
+	.biglink
+		font-size: 40px
+
+@media (max-width: 500px)
 
 	.biglink
 		font-size: 30px
+
+@media (max-width: 370px)
+
+	.biglink
+		font-size: 25px

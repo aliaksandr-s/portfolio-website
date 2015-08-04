@@ -1,8 +1,8 @@
 #-------------------------------
 # General Site Settings
 
-title: Portfolio Website
-email: emptymail@gmail.com
+title: My Portfolio
+email: alsushkevich@gmail.com
 
 # NOTE: The Logo and Background image are defined in the all.sass document.
 
@@ -50,38 +50,45 @@ skills:
 # Work Section
 
 projects:
-- {name: TYPO International Design Talks, folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: City-IN website concept, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Crispy Icons, folder: 'proj-3', file: 'work/proj-3.html'}
-- {name: Flat Mobile UI/UX Concept, folder: 'proj-4', file: 'work/proj-4.html'}
-- {name: Fresh It Up, folder: 'proj-5', file: 'work/proj-5.html'}
-- {name: Timeline Page, folder: 'proj-6', file: 'work/proj-6.html'}
-- {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}
-- {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}
+- {name: Project1, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Project1, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Project1, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Project1, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Project1, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Project1, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Project1, folder: 'proj-1', file: 'work/proj-1.html'}
+- {name: Project1, folder: 'proj-1', file: 'work/proj-1.html'}
+# - {name: City-IN website concept, folder: 'proj-2', file: 'work/proj-2.html'}
+# - {name: Crispy Icons, folder: 'proj-3', file: 'work/proj-3.html'}
+# - {name: Flat Mobile UI/UX Concept, folder: 'proj-4', file: 'work/proj-4.html'}
+# - {name: Fresh It Up, folder: 'proj-5', file: 'work/proj-5.html'}
+# - {name: Timeline Page, folder: 'proj-6', file: 'work/proj-6.html'}
+# - {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}
+# - {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}
 
 #-------------------------------
 # Clients Section
 
 clients:
-- {avatar: 'face-aaroni.jpg',
-  name: 'Scott Summers',
-  title: 'Director of Design, OnToText Ind.',
-  quote: '<p><strong>While we all felt that Travis was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer — we also all agree he should shower more often.</p>',
+- {avatar: '1.jpg',
+  name: 'Robby Spencer',
+  # title: 'Director of Design, OnToText Ind.',
+  quote: '<p><strong>While we all felt that Aliaksandr was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer.</p>',
   logo: 'logo1.png'}
-- {avatar: 'face-atariboy.jpg',
-  name: 'Hank McCoy',
-  title: 'Eater of Salad, Antartica Int.',
-  quote: '<p><strong>Working with Travis was the highlight of my career.</strong> Other moments of note were collecting the largest number of paperclips in the office, and winning a trophy for saying "uh huh, and then what?" 30 times in a row to my girlfriend without her noticing.</p>',
+- {avatar: '2.jpg',
+  name: 'Veronica Sabina',
+  # title: 'Eater of Salad, Antartica Int.',
+  quote: '<p><strong>Work with Alex was a pleasure.</strong> He understood exactly what I wanted and created an awesome site for me.</p>',
   logo: 'logo2.png'}
-- {avatar: 'face-jackiesaik.jpg',
-  name: 'Stacy Lang',
-  title: 'Social Media Girl, Quebec Int.',
-  quote: '<p><strong>Yea, I guess hes good at computers or something,</strong> but let me ask you this: If a cat always lands on its feet, and buttered bread always lands butter side down, what would happen if you tied buttered bread on top of a cat?</p>',
+- {avatar: '3.jpg',
+  name: 'Oscar  Daniels',
+  # title: 'Social Media Girl, Quebec Int.',
+  quote: '<p><strong>Awesome to work with.</strong> Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work.</p>',
   logo: 'logo3.png'}
-- {avatar: 'face-teleject.jpg',
-  name: 'Cleatus Cassidy',
-  title: 'VP of Helmut, Lorem Sorem LLC.',
-  quote: '<p><strong>Back in old country</strong> only nerds who is playing on computers. Now all bros is wanting to make codes and junk. I lost foot in war. You dont see girls asking me about homework.</p>',
+- {avatar: '4.jpg',
+  name: 'Anna Melnik',
+  # title: 'VP of Helmut, Lorem Sorem LLC.',
+  quote: '<p><strong>I am really happy with the results. </strong>Get 100% satisfaction is difficult but Alex got it without problems.</p>',
   logo: 'logo4.png'}
 
 
