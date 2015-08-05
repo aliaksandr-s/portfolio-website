@@ -1,0 +1,115 @@
+.alt-section
+	background: $bgcolor
+	overflow-x: hidden
+
+.work-belt
+	width: 200%
+	position: relative
+	left: 0%
+	+transition(400ms)
+
+.thumb-wrap, .work-wrap
+	width: 50%
+	float: left
+	
+
+.thumb-container
+	max-width: 960px
+	margin: 0px auto
+	padding-bottom: 180px
+	+clearfix
+
+	.thumb-unit
+		display: block
+		width: 25%
+		float: left
+		position: relative
+		padding-top: 16%
+		overflow: hidden
+		cursor: pointer
+		background: 
+			position: center center
+			repeat: no-repeat
+			size: cover
+		+perspective(300)
+
+		@media screen and (max-width: 760px)
+			width: 50%
+			padding-top: 26%
+
+		background: 
+			position: center center
+			repeat: no-repeat
+			size: cover
+
+		.thumb-overlay
+			+position(absolute, -50% 0px null 0px)
+			height: 100%
+			background: fade-out($orange-dark, 0.1)
+			text-align: center
+			+transition(200ms)
+			+display(flex)
+			+align-items(center)
+			+justify-content(space-around)
+			+transform(rotateX(90deg))
+			+transform-origin(center bottom)
+			opacity: 0
+
+		strong
+			display: block
+			padding: 0px 20px
+			color: white
+			font-weight: 300
+			text-transform: uppercase
+			font-size: 20px
+			line-height: 1.2
+
+		&:hover .thumb-overlay
+			top: 0%
+			+transform(rotateX(0deg))
+			opacity: 1
+
+
+
+.work-container
+	max-width: 600px
+	margin: 0px auto
+	padding: 0 15px
+	+box-sizing(border-box)
+
+	position: relative
+	display: none
+
+	h4
+		color: $orange-dark
+		font-weight: 300
+		text-transform: uppercase
+		font-size: 30px
+		line-height: 1.2
+		margin: 0 0 20px
+	img
+		max-width: 100% 
+		margin-bottom: 20px
+
+	.work-return
+		+size(40px)
+		cursor: pointer
+		opacity: 0.5
+		+position(absolute, -3px null null -60px)
+
+		
+
+		path
+			fill: rgba(0,0,0,0.4)
+
+		&:hover
+			opacity: 1
+
+@media (max-width: 740px)
+	.work-container
+
+		.work-return
+			left: 0px
+
+		h4
+			margin-left: 60px
