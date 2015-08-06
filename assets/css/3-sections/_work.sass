@@ -25,7 +25,8 @@
 		float: left
 		position: relative
 		cursor: pointer
-
+		overflow: hidden
+		+perspective(300)
 		
 		img
 			display: block
@@ -42,13 +43,14 @@
 			height: 100%
 			background: fade-out($orange-dark, 0.1)
 			text-align: center
-			+transition(250ms)
 			+display(flex)
 			+align-items(center)
 			+justify-content(space-around)
-			+transform(rotateX(-90deg))
-			+transform-origin(bottom center)
-			opacity: 1
+
+			+transition(200ms)
+			+transform(rotateX(90deg))
+			+transform-origin(center bottom)
+			opacity: 0
 
 		strong
 			display: block
@@ -61,8 +63,8 @@
 
 		&:hover .thumb-overlay
 			top: 0%
-			+transform(rotateX(0deg))
 			opacity: 1
+			+transform(rotateX(0deg))
 
 
 
