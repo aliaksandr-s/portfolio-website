@@ -38,9 +38,9 @@ seo:
 
 skills:
 - {name: Communication, value: '8'}
-- {name: HTML/CSS, value: '8'}
+- {name: HTML/CSS, value: '7'}
 - {name: Organization, value: '9'}
-- {name: Python/Django, value: '7'}
+- {name: Python/Django, value: '6'}
 - {name: Planning, value: '7'}
 - {name: JavaScript/jQuery, value: '5'}
 - {name: Learning, value: '10'}
@@ -50,7 +50,7 @@ skills:
 
 projects:
 - {name: Blackjack, folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: Project8, folder: 'proj-8', file: 'work/proj-8.html'}
+- {name: RiceRocks, folder: 'proj-2', file: 'work/proj-2.html'}
 - {name: Project8, folder: 'proj-8', file: 'work/proj-8.html'}
 - {name: Project8, folder: 'proj-8', file: 'work/proj-8.html'}
 
