@@ -1,8 +1,14 @@
 header
   .background
-    height: 100vh
+    //height: 100vh
     background: url(../img/background.jpg) center center
     background-size: cover
+    
+    
+    $height: 100 //set your height in vh
+    $heightPercent: $height/100
+    height: #{$height}vh
+
 
   .overlay 
     background-color: rgba(53, 49, 45, 0.35)
@@ -66,5 +72,26 @@ header
   header .content nav a
     margin-left: 0px
     margin-right: 15px
-    
-    
+
+
+
+  
+//iPhone 3 and 4 portrait
+@media all and (device-width: 320px) and (device-height: 480px) and (orientation:portrait)
+  height: 480px*$heightPercent
+//iPhone 3 and 4 landscape
+@media all and (device-width: 320px) and (device-height: 480px) and (orientation:landscape)
+  height: 320px*$heightPercent
+//iPhone 5 portrait
+@media all and (device-width: 320px) and (device-height: 568px) and (orientation:portrait)
+  height: 568px*$heightPercent
+//iPhone 5 landscape
+@media all and (device-width: 320px) and (device-height: 568px) and (orientation:landscape) 
+  height: 320px*$heightPercent
+
+//iPad portrait
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait)
+  height: 1024px*$heightPercent
+//iPad landscape
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape)
+  height: 768px*$heightPercent
