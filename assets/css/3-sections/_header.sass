@@ -66,3 +66,27 @@ header
   header .content nav a
     margin-left: 0px
     margin-right: 15px
+    
+    
+// Ipad header height fix
+
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:portrait)
+  header
+    height: 1024px
+
+
+/** 
+ * iPad with landscape orientation.
+ */
+@media all and (device-width: 768px) and (device-height: 1024px) and (orientation:landscape)
+  header
+    height: 768px
+  
+
+/**
+ * iPhone 5
+ * You can also target devices with aspect ratio.
+ */
+@media screen and (device-aspect-ratio: 40/71) 
+  header
+    height: 500px
