@@ -51,7 +51,7 @@ skills:
 projects:
 - {name: Blackjack, folder: 'proj-1', file: 'work/proj-1.html'}
 - {name: RiceRocks, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Project8, folder: 'proj-8', file: 'work/proj-8.html'}
+- {name: Move, folder: 'proj-3', file: 'work/proj-3.html'}
 - {name: Project8, folder: 'proj-8', file: 'work/proj-8.html'}
 
 
@@ -87,5 +87,3 @@ clients:
   # title: 'VP of Helmut, Lorem Sorem LLC.',
   quote: '<p><strong>I am really happy with the results. </strong>Get 100% satisfaction is difficult but Alex got it without problems.</p>',
   logo: 'logo4.png'}
-
-
