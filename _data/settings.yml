@@ -38,13 +38,13 @@ seo:
 
 skills:
 - {name: Communication, value: '8'}
-- {name: HTML/CSS, value: '7'}
+- {name: Programming, value: '7'}
 - {name: Organization, value: '9'}
-- {name: Python/Django, value: '6'}
+- {name: Responsive Web Design, value: '8'}
 - {name: Planning, value: '7'}
-- {name: JavaScript/jQuery, value: '5'}
+- {name: Website Optimization, value: '7'}
 - {name: Learning, value: '10'}
-- {name: Ruby/PHP, value: '4'}
+- {name: Version Control, value: '6'}
 
 # Work Section
 
