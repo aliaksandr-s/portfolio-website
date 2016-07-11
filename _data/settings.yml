@@ -58,7 +58,7 @@ projects:
 - {name: To-do app, folder: 'proj-7', file: 'work/proj-7.html'}
 - {name: Bolt network, folder: 'proj-8', file: 'work/proj-8.html'}
 - {name: Frogger game, folder: 'proj-9', file: 'work/proj-9.html'}
-
+- {name: Bolt network, folder: 'proj-10', file: 'work/proj-10.html'}
 
 
 # - {name: Project8, folder: 'proj-8', file: 'work/proj-8.html'}
