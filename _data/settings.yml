@@ -48,19 +48,25 @@ skills:
 
 # Work Section
 
+project-categories:
+- {name: "All", class: "show-all"}
+- {name: "HTML mockups", class: "show-html"}
+- {name: "JavaScript", class: "show-javascript"}
+# - {name: "AngularJS", class: "show-angular"}
+
 projects:
-- {name: Newsroom, folder: 'proj-1', file: 'work/proj-1.html'}
-# - {name: RiceRocks, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Agency website, folder: 'proj-4', file: 'work/proj-4.html'}
-- {name: Move, folder: 'proj-3', file: 'work/proj-3.html'}
-# - {name: Excursion, folder: 'proj-5', file: 'work/proj-5.html'}
-- {name: Bass, folder: 'proj-6', file: 'work/proj-6.html'}
-# - {name: To-do app, folder: 'proj-7', file: 'work/proj-7.html'}
-- {name: Bolt network, folder: 'proj-8', file: 'work/proj-8.html'}
-- {name: Frogger game, folder: 'proj-9', file: 'work/proj-9.html'}
-- {name: Video spa, folder: 'proj-10', file: 'work/proj-10.html'}
-- {name: AFG landing page, folder: 'proj-11', file: 'work/proj-11.html'}
-- {name: Barbershop, folder: 'proj-12', file: 'work/proj-12.html'}
+- {name: Newsroom, class: "html-project", folder: 'proj-1', file: 'work/proj-1.html'}
+# - {name: RiceRocks, class: "html-project", folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Agency website, class: "html-project", folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Move, class: "html-project", folder: 'proj-3', file: 'work/proj-3.html'}
+# - {name: Excursion, class: "html-project", folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Bass, class: "html-project", folder: 'proj-6', file: 'work/proj-6.html'}
+# - {name: To-do app, class: "javascript-project", folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: Bolt network, class: "html-project", folder: 'proj-8', file: 'work/proj-8.html'}
+- {name: Frogger game, class: "javascript-project", folder: 'proj-9', file: 'work/proj-9.html'}
+- {name: Video spa, class: "javascript-project", folder: 'proj-10', file: 'work/proj-10.html'}
+- {name: AFG landing page, class: "html-project", folder: 'proj-11', file: 'work/proj-11.html'}
+- {name: Barbershop, class: "html-project", folder: 'proj-12', file: 'work/proj-12.html'}
 
 
 

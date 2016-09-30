@@ -3,12 +3,16 @@
   <h3 id="work">Work</h3>
 
   <div class="work-belt">
-
+    <div class="work-categories">
+      {% for project in site.data.settings.project-categories %}
+        <span class="{{project.class}} work-categorie">{{project.name}}</span>
+      {% endfor %}
+    </div>
     <div class="thumb-wrap">
       <div class="thumb-container">
       {% for project in site.data.settings.projects %}
-      <div class="thumb-unit" data-folder="{{ project.folder }}">
-        <img src="assets/work/{{project.folder}}/thumb.jpg" alt="{{ project.name }}" /> 
+      <div class="thumb-unit {{project.class}}" data-folder="{{ project.folder }}">
+        <img src="assets/work/{{project.folder}}/thumb.jpg" alt="{{ project.name }}" />
         <div class="thumb-overlay">
           <strong>{{ project.name }}</strong>
         </div>

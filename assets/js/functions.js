@@ -2,7 +2,8 @@ $(function() {
 	smoothScroll(330);
 	workBelt();
 	workLoad();
-  clientStuff();
+	filterProjects();
+  	clientStuff();
 
   // $("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '40px' });
 });
@@ -99,6 +100,34 @@ function clientStuff() {
 
   });
 
+}
+
+
+function filterProjects () {
+	$('.work-categories').on('click', '.work-categorie', function(){
+		var filter = ($(this).attr('class').split(' ')[0]);
+		showByFilter(filter);
+		$('.work-categories .work-categorie').removeClass("active-categorie");
+		$(this).addClass("active-categorie");
+	})
+
+	function showByFilter(filter){
+		switch(filter) {
+		    case "show-all":
+				$('.thumb-container .thumb-unit').show(200);
+		        break;
+		    case 'show-html':
+				$('.thumb-container .thumb-unit').not('.html-project').hide(200);
+				$('.thumb-container .html-project').show(200);
+		        break;
+		    case 'show-javascript':
+				$('.thumb-container .thumb-unit').not('.javascript-project').hide(200);
+				$('.thumb-container .javascript-project').show(200);
+		        break;
+		    default:
+		        $('.thumb-container .thumb-unit').hide(200);
+		}
+	}
 }
 
 
