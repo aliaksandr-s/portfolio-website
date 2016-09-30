@@ -16,10 +16,10 @@ menu:
 
 # NOTE: Providing SEO information will make this website more searchable on the internet.
 
-seo:
-  description: 'Provide a description for your website to make it visible to search engines.'
-  rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
-  rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+# seo:
+#   description: 'Provide a description for your website to make it visible to search engines.'
+#   rel-author: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
+#   rel-publisher: 'https://plus.google.com/u/0/+DevTipsForDesigners/'
 
 #-------------------------------
 # Google Analytics Section
@@ -38,31 +38,40 @@ seo:
 
 skills:
 - {name: Communication, value: '8'}
-- {name: HTML/CSS, value: '7'}
+- {name: Programming, value: '7'}
 - {name: Organization, value: '9'}
-- {name: Python/Django, value: '6'}
+- {name: Responsive Web Design, value: '8'}
 - {name: Planning, value: '7'}
-- {name: JavaScript/jQuery, value: '5'}
+- {name: Website Optimization, value: '7'}
 - {name: Learning, value: '10'}
-- {name: Ruby/PHP, value: '4'}
+- {name: Version Control, value: '6'}
 
 # Work Section
 
+project-categories:
+- {name: "All", class: "show-all"}
+- {name: "HTML mockups", class: "show-html"}
+- {name: "JavaScript", class: "show-javascript"}
+# - {name: "AngularJS", class: "show-angular"}
+
 projects:
-- {name: Blackjack, folder: 'proj-1', file: 'work/proj-1.html'}
-- {name: RiceRocks, folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Project8, folder: 'proj-8', file: 'work/proj-8.html'}
-- {name: Project8, folder: 'proj-8', file: 'work/proj-8.html'}
+- {name: Newsroom, class: "html-project", folder: 'proj-1', file: 'work/proj-1.html'}
+# - {name: RiceRocks, class: "html-project", folder: 'proj-2', file: 'work/proj-2.html'}
+- {name: Agency website, class: "html-project", folder: 'proj-4', file: 'work/proj-4.html'}
+- {name: Move, class: "html-project", folder: 'proj-3', file: 'work/proj-3.html'}
+# - {name: Excursion, class: "html-project", folder: 'proj-5', file: 'work/proj-5.html'}
+- {name: Bass, class: "html-project", folder: 'proj-6', file: 'work/proj-6.html'}
+# - {name: To-do app, class: "javascript-project", folder: 'proj-7', file: 'work/proj-7.html'}
+- {name: Bolt network, class: "html-project", folder: 'proj-8', file: 'work/proj-8.html'}
+- {name: Frogger game, class: "javascript-project", folder: 'proj-9', file: 'work/proj-9.html'}
+- {name: Video spa, class: "javascript-project", folder: 'proj-10', file: 'work/proj-10.html'}
+- {name: AFG landing page, class: "html-project", folder: 'proj-11', file: 'work/proj-11.html'}
+- {name: Barbershop, class: "html-project", folder: 'proj-12', file: 'work/proj-12.html'}
 
 
 
-# - {name: City-IN website concept, folder: 'proj-2', file: 'work/proj-2.html'}
-# - {name: Crispy Icons, folder: 'proj-3', file: 'work/proj-3.html'}
-# - {name: Flat Mobile UI/UX Concept, folder: 'proj-4', file: 'work/proj-4.html'}
-# - {name: Fresh It Up, folder: 'proj-5', file: 'work/proj-5.html'}
-# - {name: Timeline Page, folder: 'proj-6', file: 'work/proj-6.html'}
-# - {name: Weather Dashboard, folder: 'proj-7', file: 'work/proj-7.html'}
-# - {name: Stripes & Co, folder: 'proj-8', file: 'work/proj-8.html'}
+
+# - {name: Project8, folder: 'proj-8', file: 'work/proj-8.html'}
 #-------------------------------
 # Clients Section
 
@@ -87,5 +96,3 @@ clients:
   # title: 'VP of Helmut, Lorem Sorem LLC.',
   quote: '<p><strong>I am really happy with the results. </strong>Get 100% satisfaction is difficult but Alex got it without problems.</p>',
   logo: 'logo4.png'}
-
-
