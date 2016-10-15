@@ -52,7 +52,8 @@ project-categories:
 - {name: "All", class: "show-all"}
 - {name: "HTML mockups", class: "show-html"}
 - {name: "JavaScript", class: "show-javascript"}
-# - {name: "AngularJS", class: "show-angular"}
+- {name: "AngularJS", class: "show-angular"}
+
 
 projects:
 - {name: Newsroom, class: "html-project", folder: 'proj-1', file: 'work/proj-1.html'}
@@ -65,8 +66,10 @@ projects:
 - {name: Bolt network, class: "html-project", folder: 'proj-8', file: 'work/proj-8.html'}
 - {name: Frogger game, class: "javascript-project", folder: 'proj-9', file: 'work/proj-9.html'}
 - {name: Video spa, class: "javascript-project", folder: 'proj-10', file: 'work/proj-10.html'}
+- {name: Angular Blog, class: "angular-project", folder: 'proj-13', file: 'work/proj-13.html'}
 - {name: AFG landing page, class: "html-project", folder: 'proj-11', file: 'work/proj-11.html'}
 - {name: Barbershop, class: "html-project", folder: 'proj-12', file: 'work/proj-12.html'}
+- {name: Angular Calculator, class: "angular-project", folder: 'proj-14', file: 'work/proj-14.html'}
 
 
 

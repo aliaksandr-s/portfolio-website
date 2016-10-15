@@ -124,6 +124,11 @@ function filterProjects () {
 				$('.thumb-container .thumb-unit').not('.javascript-project').hide(200);
 				$('.thumb-container .javascript-project').show(200);
 		        break;
+		        break;
+		    case 'show-angular':
+				$('.thumb-container .thumb-unit').not('.angular-project').hide(200);
+				$('.thumb-container .angular-project').show(200);
+		        break;
 		    default:
 		        $('.thumb-container .thumb-unit').hide(200);
 		}
