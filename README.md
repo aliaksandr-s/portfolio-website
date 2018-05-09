@@ -1,6 +1,7 @@
 ### Requirements
 
 * Jekyll
+* Make
 
 #### Run
 
