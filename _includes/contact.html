@@ -2,14 +2,12 @@
 	<h3 id="contact">Contact</h3>
 
 	<div class="social-links">
-		<a href="https://vk.com/alscream" class="icon">{% include icons/social-vk.html %}</a>
-		<a href="https://github.com/aliaksandr-s" class="icon">{% include icons/social-github.html %}</a>
-		<a href="http://codepen.io/alscream/" class="icon">{% include icons/codepen.html %}</a>
+		{% for social in site.data.settings.social %}
+			<a href={{ social.link }} class="icon">{% include icons/{{ social.icon }} %}</a>
+		{% endfor %}
 	</div>
 
 <!-- 	<hr class="bar"> -->
 
 	<a href="mailto:{{site.data.settings.email}}" class="biglink">{{site.data.settings.email}}</a>
-
-
 </section>

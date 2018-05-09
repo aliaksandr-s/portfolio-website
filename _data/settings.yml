@@ -99,3 +99,9 @@ clients:
   # title: 'VP of Helmut, Lorem Sorem LLC.',
   quote: '<p><strong>I am really happy with the results. </strong>Get 100% satisfaction is difficult but Alex got it without problems.</p>',
   logo: 'logo4.png'}
+
+
+social:
+  - { icon: 'so.svg', link: 'https://stackoverflow.com/users/7600492/aliaksandr-sushkevich' }
+  - { icon: 'github.svg', link: 'https://github.com/aliaksandr-s' }
+  - { icon: 'codepen.svg', link: 'https://codepen.io/alscream/' }
