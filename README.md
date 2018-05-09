@@ -5,4 +5,4 @@
 
 #### Run
 
-`jekyll serve`
+`make develop`
