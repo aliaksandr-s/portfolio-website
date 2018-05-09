@@ -1,12 +1,9 @@
-# Site settings
-title: Portfolio
-email: artist@email
-
 # Build settings
 markdown: kramdown
 permalink: pretty
 
 port: 9000
+livereload: true 
 
 sass:
   sass_dir: assets/css
