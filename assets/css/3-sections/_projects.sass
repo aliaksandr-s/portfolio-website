@@ -1,30 +1,30 @@
-.section-work
+.section-projects
 	background: $bgcolor
 	overflow-x: hidden
 
-.work-belt
+.projects-belt
 	width: 200%
 	position: relative
 	left: 0%
 	+transition(400ms)
 
-	.thumb-wrap, .work-wrap
+	.thumb-wrap, .projects-wrap
 		width: 50%
 		float: left
 
 	.thumb-container
 		max-width: 960px
 		margin: 0px auto
+		padding-bottom: 180px
 		+clearfix
 
 		.thumb-unit
 			display: block
-			width: 100%
+			width: 25%
 			float: left
 			position: relative
 			cursor: pointer
 			overflow: hidden
-			margin-bottom: 4rem
 			+perspective(300)
 
 			img
@@ -33,21 +33,21 @@
 
 
 			@media screen and (max-width: 760px)
-				width: 100%
+				width: 50%
 
 
 
 			.thumb-overlay
-				+position(absolute, 0% 0px null 0px)
+				+position(absolute, -50% 0px null 0px)
 				height: 100%
-				background: fade-out($orange-dark, 0.2)
+				background: fade-out($orange-dark, 0.1)
 				text-align: center
 				+display(flex)
 				+align-items(center)
 				+justify-content(space-around)
 
-				+transition(500ms)
-				+transform(rotateX(-90deg))
+				+transition(200ms)
+				+transform(rotateX(90deg))
 				+transform-origin(center bottom)
 				opacity: 0
 
@@ -57,10 +57,8 @@
 				color: white
 				font-weight: 300
 				text-transform: uppercase
-				font-size: 4rem
+				font-size: 20px
 				line-height: 1.2
-				@media screen and (max-width: 600px)
-					font-size: 2.5rem
 
 			&:hover .thumb-overlay
 				top: 0%
@@ -69,14 +67,13 @@
 
 
 
-.work-container
+.projects-container
 	max-width: 600px
 	margin: 0px auto
 	margin-bottom: 50px
 	padding: 0 15px
-	font-size: 1.1rem
 	+box-sizing(border-box)
-
+	font-size: 1.1rem
 	position: relative
 	display: none
 
@@ -92,7 +89,7 @@
 		margin-bottom: 20px
 		box-shadow: 0px 0px 43px -5px rgba(0,0,0,0.67)
 
-	.work-return
+	.projects-return
 		+size(40px)
 		cursor: pointer
 		opacity: 0.5
@@ -107,9 +104,9 @@
 			opacity: 1
 
 @media (max-width: 740px)
-	.work-container
+	.projects-container
 
-		.work-return
+		.projects-return
 			left: 0px
 
 		h4

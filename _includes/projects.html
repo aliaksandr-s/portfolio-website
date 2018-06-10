@@ -1,13 +1,13 @@
-<section class="section-work">
+<section class="section-projects">
 
-  <h3 id="work">Work</h3>
+  <h3 id="projects">Pet Projects</h3>
 
-  <div class="work-belt">
+  <div class="projects-belt">
     <div class="thumb-wrap">
       <div class="thumb-container">
-        {% for project in site.data.settings.work %}
+        {% for project in site.data.settings.projects %}
         <div class="thumb-unit {{project.class}}" data-folder="{{ project.folder }}">
-          <img src="assets/work/{{project.folder}}/thumb.jpg" alt="{{ project.name }}" />
+          <img src="assets/projects/{{project.folder}}/thumb.jpg" alt="{{ project.name }}" />
           <div class="thumb-overlay">
             <strong>{{ project.name }}</strong>
           </div>
@@ -16,9 +16,9 @@
       </div>
     </div>
 
-    <div class="work-wrap">
-      <div class="work-container">
-      <div class="work-return">{% include icons/icon-back.html %}</div>
+    <div class="projects-wrap">
+      <div class="projects-container">
+      <div class="projects-return">{% include icons/icon-back.html %}</div>
       <h4 class="project-title">{{ project.name }}</h4>
       <div class="project-load"></div>
     </div>
