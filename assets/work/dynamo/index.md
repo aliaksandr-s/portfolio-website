@@ -11,7 +11,7 @@ I was a part of a hightly motivated distributed team, people were located in **L
 * Creating new highly reusable front-end components
 * Mobile first and responsive styling
 * Implementing front-end logic and api integration
-* Covering projects with unit tests.
+* Covering projects with unit tests, trying to achieve 100% coverage
 
 **Technology stack:** React, Redux, redux-saga, redux-little-router, TypeScript, Jest.
 
