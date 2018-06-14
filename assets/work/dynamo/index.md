@@ -9,11 +9,11 @@ I was a part of a hightly motivated distributed team, people were located in **L
 
 **My main responsibilities were:**
 * Creating new highly reusable front-end components
-* Mobile first and responsive styling
+* Mobile first and responsive styling using BEM methodology
 * Implementing front-end logic and api integration
 * Covering projects with unit tests, trying to achieve 100% coverage
 
-**Technology stack:** React, Redux, redux-saga, redux-little-router, TypeScript, Jest.
+**Technology stack:** React, Redux, redux-saga, redux-little-router, TypeScript, Jest, BEM.
 
 <br/>
 ![customer portal cards](assets/work/dynamo/cp_cards.jpg)
