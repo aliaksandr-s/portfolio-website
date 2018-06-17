@@ -9,7 +9,7 @@ menu:
 - {name: About Me, url: '#about-me'}
 - {name: Work, url: '#work'}
 - {name: Pet Projects, url: '#projects'}
-- {name: Clients, url: '#clients'}
+- {name: Feedback, url: '#clients'}
 - {name: Contact, url: '#contact'}
 
 #-------------------------------
@@ -80,26 +80,34 @@ projects:
 
 # Clients Section
 clients:
-- {avatar: '1.jpg',
+- {
+  avatar: 'jelena-m.jpg',
+  name: 'Jelena Milosevic',
+  title: 'Project Manager, Dynamo',
+  quote: '<p><strong>Awesome to work with.</strong> Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work.</p>',
+  # logo: 'logo3.png'
+}
+- {
+  avatar: '1.jpg',
   name: 'Robby Spencer',
   # title: 'Director of Design, OnToText Ind.',
   quote: '<p><strong>While we all felt that Aliaksandr was a great</strong> asset to our team — and really worked hard to understand our products from the point of view of the customer.</p>',
-  logo: 'logo1.png'}
-- {avatar: '2.jpg',
+  # logo: 'logo1.png'
+}
+- {
+  avatar: '2.jpg',
   name: 'Veronica Sabina',
   # title: 'Eater of Salad, Antartica Int.',
   quote: '<p><strong>Work with Alex was a pleasure.</strong> He understood exactly what I wanted and created an awesome site for me.</p>',
-  logo: 'logo2.png'}
-- {avatar: '3.jpg',
+  # logo: 'logo2.png'
+}
+- {
+  avatar: '3.jpg',
   name: 'Oscar  Daniels',
-  # title: 'Social Media Girl, Quebec Int.',
-  quote: '<p><strong>Awesome to work with.</strong> Incredibly organized, easy to communicate with, responsive with next iterations, and beautiful work.</p>',
-  logo: 'logo3.png'}
-- {avatar: '4.jpg',
-  name: 'Anna Melnik',
   # title: 'VP of Helmut, Lorem Sorem LLC.',
   quote: '<p><strong>I am really happy with the results. </strong>Get 100% satisfaction is difficult but Alex got it without problems.</p>',
-  logo: 'logo4.png'}
+  # logo: 'logo4.png'
+}
 
 
 # Social Section
