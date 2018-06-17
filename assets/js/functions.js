@@ -1,10 +1,10 @@
 $(function() {
 	smoothScroll(330);
 	workBelt();
-	workLoad();
-	filterProjects();
-  	clientStuff();
-
+	projectsLoad();
+  clientStuff();
+  workLoad();
+  projectsBelt();
   // $("header h1").fitText(1, { minFontSize: '20px', maxFontSize: '40px' });
 });
 
@@ -12,23 +12,23 @@ $(function() {
 function smoothScroll (duration) {
 	$('a[href^="#"]').on('click', function(event) {
 
-	    var target = $( $(this).attr('href') );
+    var target = $( $(this).attr('href') );
 
-	    if( target.length ) {
-	        event.preventDefault();
-	        $('html, body').animate({
-	            scrollTop: target.offset().top
-	        }, duration);
-	    }
+    if( target.length ) {
+        event.preventDefault();
+        $('html, body').animate({
+            scrollTop: target.offset().top
+        }, duration);
+    }
 	});
 }
 
 
 function workBelt() {
 
-  $('.thumb-unit').click(function() {
+  $('.work-belt .thumb-unit').click(function() {
     $('.work-belt').css('left','-100%');
-    $('.work-container').show();
+    $('.work-container').show(250);
   });
 
   $('.work-return').click(function() {
@@ -38,23 +38,53 @@ function workBelt() {
 
 }
 
+function projectsBelt() {
 
-function  workLoad() {
+  $('.projects-belt .thumb-unit').click(function() {
+    $('.projects-belt').css('left','-100%');
+    $('.projects-container').show(250);
+  });
+
+  $('.projects-return').click(function() {
+    $('.projects-belt').css('left','0%');
+    $('.projects-container').hide(400);
+  });
+
+}
+
+
+function  projectsLoad() {
 
   $.ajaxSetup({ cache: true });
 
-  $('.thumb-unit').click(function() {
+  $('.projects-belt .thumb-unit').click(function() {
 
     var $this = $(this),
         newTitle = $this.find('strong').text(),
         newfolder = $this.data('folder'),
         spinner = '<div class="loader">Loading...</div>',
-        newHTML = 'assets/work/'+ newfolder + '/' + newfolder +'.html';
+        newHTML = 'assets/projects/'+ newfolder + '/' + 'index.html';
 
-    $('.project-load').html(spinner).load(newHTML);
-    $('.project-title').text(newTitle);
+    $('.projects-wrap .project-load').html(spinner).load(newHTML);
+    $('.projects-wrap .project-title').text(newTitle);
   });
+}
 
+function  workLoad() {
+
+  $.ajaxSetup({ cache: true });
+
+  $('.work-belt .thumb-unit').click(function() {
+
+    var $this = $(this),
+        newTitle = $this.find('strong').text(),
+        newfolder = $this.data('folder'),
+        spinner = '<div class="loader">Loading...</div>',
+        newHTML = 'assets/work/'+ newfolder + '/' + 'index.html';
+
+    $('.work-wrap .project-load').html(spinner).load(newHTML);
+    $('.work-wrap .project-title').text(newTitle);
+  });
 }
 
 function clientStuff() {
@@ -101,40 +131,6 @@ function clientStuff() {
   });
 
 }
-
-
-function filterProjects () {
-	$('.work-categories').on('click', '.work-categorie', function(){
-		var filter = ($(this).attr('class').split(' ')[0]);
-		showByFilter(filter);
-		$('.work-categories .work-categorie').removeClass("active-categorie");
-		$(this).addClass("active-categorie");
-	})
-
-	function showByFilter(filter){
-		switch(filter) {
-		    case "show-all":
-				$('.thumb-container .thumb-unit').show(200);
-		        break;
-		    case 'show-html':
-				$('.thumb-container .thumb-unit').not('.html-project').hide(200);
-				$('.thumb-container .html-project').show(200);
-		        break;
-		    case 'show-javascript':
-				$('.thumb-container .thumb-unit').not('.javascript-project').hide(200);
-				$('.thumb-container .javascript-project').show(200);
-		        break;
-		        break;
-		    case 'show-angular':
-				$('.thumb-container .thumb-unit').not('.angular-project').hide(200);
-				$('.thumb-container .angular-project').show(200);
-		        break;
-		    default:
-		        $('.thumb-container .thumb-unit').hide(200);
-		}
-	}
-}
-
 
 (function( $ ){
 

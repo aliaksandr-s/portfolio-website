@@ -8,6 +8,7 @@ email: alsushkevich@gmail.com
 menu:
 - {name: About Me, url: '#about-me'}
 - {name: Work, url: '#work'}
+- {name: Pet Projects, url: '#projects'}
 - {name: Clients, url: '#clients'}
 - {name: Contact, url: '#contact'}
 
@@ -37,47 +38,47 @@ menu:
 # NOTE: The avatar is defined in the all.sass document.
 
 skills:
-- {name: Communication, value: '8'}
+- {name: Communication, value: '9'}
 - {name: Programming, value: '9'}
 - {name: Organization, value: '9'}
-- {name: Responsive Web Design, value: '8'}
+- {name: UI/UX skills, value: '8'}
 - {name: Planning, value: '7'}
 - {name: Website Optimization, value: '7'}
 - {name: Learning, value: '10'}
 - {name: DevOps skills, value: '7'}
 
-# Work Section
 
+# Work Section
+work:
+- {name: Dynamo, folder: 'dynamo'}
+- {name: Kwickdoctor, folder: 'kwickdoctor'}
+
+
+# Pet Projects Section
 project-categories:
 - {name: "All", class: "show-all"}
 - {name: "HTML mockups", class: "show-html"}
 - {name: "JavaScript", class: "show-javascript"}
 - {name: "AngularJS", class: "show-angular"}
 
-
 projects:
-- {name: Newsroom, class: "html-project", folder: 'proj-1', file: 'work/proj-1.html'}
-# - {name: RiceRocks, class: "html-project", folder: 'proj-2', file: 'work/proj-2.html'}
-- {name: Agency website, class: "html-project", folder: 'proj-4', file: 'work/proj-4.html'}
-- {name: Move, class: "html-project", folder: 'proj-3', file: 'work/proj-3.html'}
-# - {name: Excursion, class: "html-project", folder: 'proj-5', file: 'work/proj-5.html'}
-- {name: Bass, class: "html-project", folder: 'proj-6', file: 'work/proj-6.html'}
-# - {name: To-do app, class: "javascript-project", folder: 'proj-7', file: 'work/proj-7.html'}
-- {name: Bolt network, class: "html-project", folder: 'proj-8', file: 'work/proj-8.html'}
-- {name: Frogger game, class: "javascript-project", folder: 'proj-9', file: 'work/proj-9.html'}
-- {name: Video spa, class: "javascript-project", folder: 'proj-10', file: 'work/proj-10.html'}
-- {name: Angular Blog, class: "angular-project", folder: 'proj-13', file: 'work/proj-13.html'}
-- {name: AFG landing page, class: "html-project", folder: 'proj-11', file: 'work/proj-11.html'}
-- {name: Barbershop, class: "html-project", folder: 'proj-12', file: 'work/proj-12.html'}
-- {name: Angular Calculator, class: "angular-project", folder: 'proj-14', file: 'work/proj-14.html'}
+- {name: Frogger game, class: "javascript-project", folder: 'proj-9'}
+- {name: RiceRocks, class: "html-project", folder: 'proj-2'}
+- {name: AFG landing page, class: "html-project", folder: 'proj-11'}
+- {name: Barbershop, class: "html-project", folder: 'proj-12'}
+- {name: Newsroom, class: "html-project", folder: 'proj-1'}
+- {name: Agency website, class: "html-project", folder: 'proj-4'}
+- {name: Move, class: "html-project", folder: 'proj-3'}
+# - {name: Excursion, class: "html-project", folder: 'proj-5'}
+- {name: Bass, class: "html-project", folder: 'proj-6'}
+- {name: Angular Blog, class: "angular-project", folder: 'proj-13'}
+# - {name: To-do app, class: "javascript-project", folder: 'proj-7'}
+- {name: Bolt network, class: "html-project", folder: 'proj-8'}
+- {name: Video spa, class: "javascript-project", folder: 'proj-10'}
+- {name: Angular Calculator, class: "angular-project", folder: 'proj-14'}
 
 
-
-
-# - {name: Project8, folder: 'proj-8', file: 'work/proj-8.html'}
-#-------------------------------
 # Clients Section
-
 clients:
 - {avatar: '1.jpg',
   name: 'Robby Spencer',
@@ -101,6 +102,7 @@ clients:
   logo: 'logo4.png'}
 
 
+# Social Section
 social:
   - { icon: 'so.svg', link: 'https://stackoverflow.com/users/7600492/aliaksandr-sushkevich' }
   - { icon: 'github.svg', link: 'https://github.com/aliaksandr-s' }
