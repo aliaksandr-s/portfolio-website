@@ -1,9 +1,9 @@
 ---
 layout: description
-title: Looking back on Selling Gravatar to Automattic
 ---
 
 [Dynamo](https://dynamo.co.uk) is free online mortgage adviser. 
+
 I worked on front-end of **Customer Portal** and **Middle Office** parts of the product.
 I was a part of a hightly motivated distributed team, people were located in **London**, **Belgrade** and **Minsk**. I did my best to provide **the best code quality** and **good-looking UI**.
 

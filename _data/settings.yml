@@ -38,10 +38,10 @@ menu:
 # NOTE: The avatar is defined in the all.sass document.
 
 skills:
-- {name: Communication, value: '8'}
+- {name: Communication, value: '9'}
 - {name: Programming, value: '9'}
 - {name: Organization, value: '9'}
-- {name: Responsive Web Design, value: '8'}
+- {name: UI/UX skills, value: '8'}
 - {name: Planning, value: '7'}
 - {name: Website Optimization, value: '7'}
 - {name: Learning, value: '10'}
@@ -51,6 +51,7 @@ skills:
 # Work Section
 work:
 - {name: Dynamo, folder: 'dynamo'}
+- {name: Kwickdoctor, folder: 'kwickdoctor'}
 
 
 # Pet Projects Section
