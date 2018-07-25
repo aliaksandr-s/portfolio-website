@@ -52,6 +52,7 @@ skills:
 work:
 - {name: Dynamo, folder: 'dynamo'}
 - {name: Kwickdoctor, folder: 'kwickdoctor'}
+- {name: Hash Clear, folder: 'hashclear'}
 
 
 # Pet Projects Section
